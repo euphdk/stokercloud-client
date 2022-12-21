@@ -25,6 +25,8 @@ class State(Enum):
     IGNITION_1 = 'state_2'
     IGNITION_2 = 'state_4'
     FAULT_IGNITION = 'state_13'
+    STOPPED_TEMPERATURE_REACHED = 'state_9'
+    STOPPED_BY_TIMER = 'state_23'
     OFF = 'state_14'
 
 
